@@ -1,0 +1,21 @@
+
+/* color vars: https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css */
+/* purple brand color: https://coolors.co/palette/dec9e9-dac3e8-d2b7e5-c19ee0-b185db-a06cd5-9163cb-815ac0-7251b5-6247aa */
+
+:root {
+    --vp-c-brand-1: #00a98e;
+    --vp-c-brand-light: #4ad1b4;
+    --vp-c-brand-lighter: #78fadc;
+    --vp-c-brand-dark: #008269;
+    --vp-c-brand-darker: #005d47;
+    --vp-c-brand-next: #009ff7;
+    --vp-c-brand-2: var(--vp-c-brand-darker);
+    --vp-button-brand-bg: #00a98e;
+    --vp-button-brand-hover-bg: #00a98e;
+    --vp-button-brand-active-bg: #00a98e;
+  
+    /* 设置右图像渐变 */
+    --vp-home-hero-image-background-image: linear-gradient( -45deg, #4ad1b4 50%, #ffffff 50% );
+    --vp-home-hero-image-filter: blur(150px);
+  
+  }
